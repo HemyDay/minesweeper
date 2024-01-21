@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#gameContainer{
+    padding: 50px;
+}
+
+/* -------------------- START MENU -------------------- */
+#startMenu{
+    display: grid;
+
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    
+    background-color: whitesmoke;
+    border: solid 1px darkgray;
+    border-radius: 10px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+}
+
+#startMenu > * {
+    display: inline-block;
+    text-align: center;
+}
+
+#startMenu > div > * {
+    display: inline-block;
+    
+    width: 90%;
+    height: 25px;
+
+    text-align: center;
+}
+
+#startMenu > button {
+    grid-column: span 2;
+    height: 25px;
+}
+
+/* -------------------- GAME GRID -------------------- */
+
+#gameMinesweeper{
+    width: min-content;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* -------------------- MENU -------------------- */
+
+#menuMinesweeper{
+    display: none;
+
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    
+    background-color: whitesmoke;
+    border: solid 1px darkgray;
+    border-radius: 10px;
+
+    margin-top : 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#menuMinesweeper > * {
+    display: inline-block;
+
+    height: 25px;
+    
+    text-align: center;
+}

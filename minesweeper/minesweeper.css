@@ -1,0 +1,58 @@
+/* GENERAL SQUARE PROPRIETIES */
+.square{
+    height: 100%;
+    width: 100%;
+    
+    background-color: #e1e1e1 ;
+    border: solid 2px #999999 ;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+
+    user-select: none;
+}
+
+
+/* SQUARES WITH MINES */
+.square[reveled="true"] {
+    background-color: #cdcdcd ;
+    cursor: default;
+}
+
+.square[reveled="false"] {
+    background-color: #e1e1e1 ;
+    cursor: pointer;
+}
+
+
+/* SQUARES WITH NUMBERS */
+.square[nbOfMinesAround="1"]{
+    color: #0400FB;
+}
+.square[nbOfMinesAround="2"] {
+    color: #017E00;
+}
+.square[nbOfMinesAround="3"] {
+    color: #FA0400;
+}
+.square[nbOfMinesAround="4"] {
+    color: #01007F;
+}
+.square[nbOfMinesAround="5"] {
+    color: #7D0102;
+}
+.square[nbOfMinesAround="6"] {
+    color: #018180;
+}
+.square[nbOfMinesAround="7"] {
+    color: #000000;
+}
+.square[nbOfMinesAround="8"] {
+    color: #808080;
+}
+
+img{
+    margin-top: 7px;
+}
